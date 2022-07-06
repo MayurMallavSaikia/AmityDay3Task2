@@ -44,7 +44,7 @@
 
              }
      
-             else {
+             else if(p1total>=target){
                document.querySelector("h1").innerHTML
                  = (player1 + " WINS!");
 
