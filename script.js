@@ -30,7 +30,7 @@
             document.getElementById('p2').innerHTML="<p>"+p2total+" points</p>";
 
             
-            if (p1total === p2total  && (p1total>=target || p2total>=target)) {
+            if (p1total === p2total  && (p1total===target || p2total===target)) {
                document.querySelector("h1").innerHTML = "Draw!";
 
                setTimeout(function(){location.reload();},3000)
